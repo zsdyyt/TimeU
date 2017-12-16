@@ -1,0 +1,106 @@
+/* CSS Document */
+.container{
+	padding: 0 0;
+}
+.myname{
+	margin: 0px 0xp;
+}
+.container .row{
+	padding: 0 0;
+}
+.col-xs-4.col-sm-4.col-md-4.col-lg-4{
+	margin: 0px 90px;
+}
+.col-xs-12.col-sm-12.col-md-12.col-lg-12{
+	padding: 0 0;
+}
+
+body{
+	border: 0;
+	padding:0;
+	margin:0;
+	
+}
+*{
+	border: 0px;
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;}
+
+.header{
+	height:60px;
+	width:100%;
+	text-align: center;
+	font-size:25px;
+	color: #fff;
+}
+.header p{
+	line-height: 60px;
+	background-color: #000;
+}
+.myinput{
+	width:50%;
+}
+.myinput2{
+	width:50%;
+}
+.mytext{
+	width:100%;
+	height:150px;
+	margin:0px;
+	text-align: center;
+	line-height: 150px;
+	font-size: 20px;
+	color:#b1b1b1;
+	}
+input{
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.myinputcontent{
+	width:50%;
+}
+div.myinput{
+	float:left;
+	display: inline-block;
+}
+div.myinput2{
+	float:right;
+	display: inline-block;
+}
+.myinput input{
+	margin: 0 auto;
+	display: inline-block;
+}
+.myinput2 input{
+	margin: 0 auto;
+	display: inline-block;
+}
+.footer{
+	width:100%;
+	overflow-x: hidden;
+	overflow-y: visible;
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:73px;
+	text-align: center;
+	font-size:25px;
+	
+}
+button{
+	cursor: pointer;
+	width:100%;
+	height:60px;
+	margin-top:13px;
+	margin-bottom: 0px;
+	color: #b1b1b1;
+	box-shadow: 0 5px 20px #888;
+	
+
+}
+	

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width ,intial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />    
+<meta name="format-detection" content="telephone=no" /> 
+<title>UTIME</title>
+<link rel="stylesheet" type="text/css" href="css/mystyle2.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+<script type="text/javascript" src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+<script type="application/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script>
+	function jumpall(){
+		window.open('select_events_all.html')
+	}
+	
+</script>
+<script>
+	$(document).ready(function(){
+	$(".imgs01").click(function(){
+  		$(".showbutton1").css("display","block");
+	});
+	$(".imgs03").click(function(){
+  		$(".showbutton2").css("display","block");
+	});
+	})
+</script>
+</head>
+
+<body>
+<div id="main2">
+
+<content>
+    <section class="mybanner">
+    	<a href="select_time.html"><p class="backicon"><</p></a>
+ 		<p class="myiconbanner">UTIME</p>
+    </section>
+    
+    
+    <section id="input-groupout">
+    	<div class="input-group">
+    		<span class="input-group-addon">🔍</span>
+    		<input type="text" class="form-control" id="inputGroupSuccess4" aria-describedby="inputGroupSuccess4Status">
+  		</div>
+    </section>
+    <section class="selecttext">
+    	<p>PLEASE CHOOSE WHAT YOU LIKE</p>
+    </section>
+    
+    <section class="myselectevents">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active row myeventselect">
+      	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 imgs01">
+      		<a href="#">T-shirt</a>
+      	</div>
+    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 imgs02">
+    		<a >Cinema</a>
+    	</div>
+    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 imgs03">
+    		<a href="#">Food</a>
+    	</div>
+    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 imgs04">
+    		<a>chicken</a>
+    	</div>
+    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 imgs05">
+    		<a>museum</a>
+    	</div>
+    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 imgs06">
+    		<a>Swimming Pool</a>
+    	</div>
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+  </div>
+
+</div>
+    </section>
+    <section class="showbuttonall">
+    	<div class="showbutton1">T-shirt</div>
+    	<div class="showbutton2">Food</div>
+    </section>
+   
+
+</content>
+</div>
+<div class="footer">
+ 	<button type="button" onclick="jumpall()" >CONFIRM</button>
+	</div> 
+ 
+    
+
+</body>
+</html>
+
+
